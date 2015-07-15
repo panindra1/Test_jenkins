@@ -25,7 +25,6 @@ static dispatch_once_t oncePredicate;
     if (!self) {
         return nil;
     }
-    NSLog(@"Nothing");
 
     [self registerHTTPOperationClass:[AFJSONRequestOperation class]];
     
